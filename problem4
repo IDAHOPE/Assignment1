@@ -1,13 +1,17 @@
+A palindromic number reads the same both ways. The largest palindrome made from
+the product of two 2-digit numbers is 9009 = 91 × 99.
+Find the largest palindrome made from the product of two 3-digit numbers.
+
 #include <stdio.h>
 int is_palindrom(int n)
 {
-  int r= 0, t = n;
+  int rev= 0, t = n;
   while (t) 
   {
-    r= 10*r + (t % 10);
+    rev= 10*rev + (t % 10);
     t /= 10;
   }
-  return r == n;
+  return rev == n;
 }
 int main()
 {
