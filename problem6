@@ -29,3 +29,5 @@ int main()
     printf("%d\n",b*b-a);
     return 0;
 }
+
+
