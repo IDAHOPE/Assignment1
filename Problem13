@@ -106,7 +106,7 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 
 
 
-def compute():
+def rev():
 	return str(sum(NUMBERS))[ : 10]
 
 
@@ -215,4 +215,4 @@ NUMBERS = [
 
 
 if __name__ == "__main__":
-	print(compute())
+	print(rev())
